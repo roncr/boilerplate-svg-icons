@@ -1,0 +1,44 @@
+body {
+    font-family: "Helvetica Neue", "Trebuchet MS", Arial;
+    padding: 10px 40px;
+}
+
+h1 {
+    font-weight: 200;
+}
+
+h2 {
+    font-weight: 100;
+}
+
+.icon {
+    width: 48px;
+    height: 48px;
+}
+
+.inline-icon {
+    display: inline-block;
+}
+
+.git-icon {
+    fill: #F94C16
+}
+
+.database-icon {
+    fill: #34495e
+}
+
+.rocket-icon {
+    stroke: #27ae60;
+    fill: #ecf0f1;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+footer .inline-icon {
+    width: 14px;
+    height: 14px;
+}

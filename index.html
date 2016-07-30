@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SVG Icons Demo</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="" href="">
+</head>
+<body>
+    <h1>Boilerplate SVG Icons Demo</h1>
+    <h2>External file</h2>
+    <svg class="icon">
+        <use xlink:href="dist/icons/sprite.svg#cloud-check"></use>
+    </svg>
+
+    <h2>Ajaxing external file</h2>
+    <svg class="icon">
+        <use xlink:href="#leaf"></use>
+    </svg>
+
+    <h2>Change color</h2>
+    <svg class="icon git-icon">
+        <use xlink:href="#git"></use>
+    </svg>
+
+    <h2>Icons with opacity</h2>
+    <svg class="icon database-icon">
+        <use xlink:href="#database"></use>
+    </svg>
+
+    <h2>Icon outline</h2>
+    <svg class="icon rocket-icon">
+        <use xlink:href="#rocket"></use>
+    </svg>
+    
+    <footer>
+        <span>Small demo created by <a href="https://github.com/roncr">roncr</a>.</span>
+        <svg class="icon inline-icon">
+            <use xlink:href="#github"></use>
+        </svg>
+        <a href="https://github.com/roncr/boilerplate-svg-icons">boilerplate-svg-icons</a>
+    </footer>
+
+    <script src="js/svg-loader.js"></script>
+</body>
+</html>

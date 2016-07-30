@@ -2,6 +2,8 @@
 
 This is just an experiment/boilerplate code to use SVG icons (aiming to replace the font icons).
 
+[Live demo](http://bl.ocks.org/roncr/raw/46e0d2e28e42d973e53513b21fa017bb/)
+
 ## Why SVG Icons?
 
 There are a couple of reasons to use SVG icons instead of font icons, this reasons are explained in [Inline SVG vs Icon Fonts [CAGEMATCH]](https://css-tricks.com/icon-fonts-vs-svg/), short version of the benefits of SVG:
